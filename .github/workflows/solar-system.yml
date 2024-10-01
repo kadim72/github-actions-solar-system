@@ -9,8 +9,8 @@ on:
 env:
   MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}    
   MONGO_USERNAME: ${{ vars.MONGO_USERNAME }}
-  MONGO_URI: ‘mongodb+srv://supercluster.d83jj.mongodb.net/superData'   
-  
+  MONGO_URI: mongodb+srv://supercluster.d83jj.mongodb.net/superData   
+
 jobs:
     unit-testing:
         name: Unit Testing
